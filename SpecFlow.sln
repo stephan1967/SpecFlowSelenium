@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow", "SpecFlowSelenium\SpecFlow.csproj", "{6FF4A9FC-B757-4545-B4AF-30C90D746962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemUnderTest", "Example\SystemUnderTest.csproj", "{3259E1B0-3829-4639-A3D4-2D97C0B61D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FF4A9FC-B757-4545-B4AF-30C90D746962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF4A9FC-B757-4545-B4AF-30C90D746962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF4A9FC-B757-4545-B4AF-30C90D746962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF4A9FC-B757-4545-B4AF-30C90D746962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3259E1B0-3829-4639-A3D4-2D97C0B61D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3259E1B0-3829-4639-A3D4-2D97C0B61D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3259E1B0-3829-4639-A3D4-2D97C0B61D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3259E1B0-3829-4639-A3D4-2D97C0B61D95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48EC877B-4CF2-40B6-913C-F68D12D28E77}
+	EndGlobalSection
+EndGlobal
